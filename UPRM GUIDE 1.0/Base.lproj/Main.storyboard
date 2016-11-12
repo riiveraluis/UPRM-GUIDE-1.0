@@ -87,7 +87,7 @@
                                 <frame key="frameInset" minX="120" minY="155" width="134" height="101"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <connections>
-                                    <segue destination="s0P-ab-DHp" kind="show" id="Tcq-sP-bLf"/>
+                                    <segue destination="s0P-ab-DHp" kind="show" action="showDetailViewController:sender:" id="Tcq-sP-bLf"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ETt-9h-ehN">
@@ -174,6 +174,7 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
+                    <navigationItem key="navigationItem" id="9si-cV-HRt"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Msz-vq-tam" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
