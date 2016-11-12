@@ -12,6 +12,12 @@
 		883E129C1DD76055000B3390 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 883E129A1DD76055000B3390 /* Main.storyboard */; };
 		883E129E1DD76055000B3390 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 883E129D1DD76055000B3390 /* Assets.xcassets */; };
 		883E12A11DD76055000B3390 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 883E129F1DD76055000B3390 /* LaunchScreen.storyboard */; };
+		883E12AE1DD76617000B3390 /* 147873854787225.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 883E12A81DD76617000B3390 /* 147873854787225.jpeg */; };
+		883E12AF1DD76617000B3390 /* FAQ-Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 883E12A91DD76617000B3390 /* FAQ-Icon.png */; };
+		883E12B01DD76617000B3390 /* INFO-Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 883E12AA1DD76617000B3390 /* INFO-Icon.png */; };
+		883E12B11DD76617000B3390 /* MapIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 883E12AB1DD76617000B3390 /* MapIcon.png */; };
+		883E12B21DD76617000B3390 /* Screen Shot 2016-10-24 at 8.56.06 PM.png in Resources */ = {isa = PBXBuildFile; fileRef = 883E12AC1DD76617000B3390 /* Screen Shot 2016-10-24 at 8.56.06 PM.png */; };
+		883E12B31DD76617000B3390 /* Screen Shot 2016-10-24 at 8.56.21 PM.png in Resources */ = {isa = PBXBuildFile; fileRef = 883E12AD1DD76617000B3390 /* Screen Shot 2016-10-24 at 8.56.21 PM.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +28,12 @@
 		883E129D1DD76055000B3390 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		883E12A01DD76055000B3390 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		883E12A21DD76055000B3390 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		883E12A81DD76617000B3390 /* 147873854787225.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 147873854787225.jpeg; sourceTree = "<group>"; };
+		883E12A91DD76617000B3390 /* FAQ-Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "FAQ-Icon.png"; sourceTree = "<group>"; };
+		883E12AA1DD76617000B3390 /* INFO-Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "INFO-Icon.png"; sourceTree = "<group>"; };
+		883E12AB1DD76617000B3390 /* MapIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MapIcon.png; sourceTree = "<group>"; };
+		883E12AC1DD76617000B3390 /* Screen Shot 2016-10-24 at 8.56.06 PM.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Screen Shot 2016-10-24 at 8.56.06 PM.png"; sourceTree = "<group>"; };
+		883E12AD1DD76617000B3390 /* Screen Shot 2016-10-24 at 8.56.21 PM.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Screen Shot 2016-10-24 at 8.56.21 PM.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,8 +72,22 @@
 				883E129D1DD76055000B3390 /* Assets.xcassets */,
 				883E129F1DD76055000B3390 /* LaunchScreen.storyboard */,
 				883E12A21DD76055000B3390 /* Info.plist */,
+				883E12B41DD76621000B3390 /* Images */,
 			);
 			path = "UPRM GUIDE 1.0";
+			sourceTree = "<group>";
+		};
+		883E12B41DD76621000B3390 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				883E12A81DD76617000B3390 /* 147873854787225.jpeg */,
+				883E12A91DD76617000B3390 /* FAQ-Icon.png */,
+				883E12AA1DD76617000B3390 /* INFO-Icon.png */,
+				883E12AB1DD76617000B3390 /* MapIcon.png */,
+				883E12AC1DD76617000B3390 /* Screen Shot 2016-10-24 at 8.56.06 PM.png */,
+				883E12AD1DD76617000B3390 /* Screen Shot 2016-10-24 at 8.56.21 PM.png */,
+			);
+			name = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,6 +152,12 @@
 			files = (
 				883E12A11DD76055000B3390 /* LaunchScreen.storyboard in Resources */,
 				883E129E1DD76055000B3390 /* Assets.xcassets in Resources */,
+				883E12B31DD76617000B3390 /* Screen Shot 2016-10-24 at 8.56.21 PM.png in Resources */,
+				883E12B21DD76617000B3390 /* Screen Shot 2016-10-24 at 8.56.06 PM.png in Resources */,
+				883E12AF1DD76617000B3390 /* FAQ-Icon.png in Resources */,
+				883E12AE1DD76617000B3390 /* 147873854787225.jpeg in Resources */,
+				883E12B01DD76617000B3390 /* INFO-Icon.png in Resources */,
+				883E12B11DD76617000B3390 /* MapIcon.png in Resources */,
 				883E129C1DD76055000B3390 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
