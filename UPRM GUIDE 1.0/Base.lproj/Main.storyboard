@@ -19,15 +19,17 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="147873854787225.jpeg" translatesAutoresizingMaskIntoConstraints="NO" id="55c-sw-hec"/>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" image="Screen Shot 2016-10-24 at 8.56.06 PM.png" translatesAutoresizingMaskIntoConstraints="NO" id="mG6-nq-3He">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Screen Shot 2016-10-24 at 8.56.06 PM.png" translatesAutoresizingMaskIntoConstraints="NO" id="mG6-nq-3He">
                                 <frame key="frameInset" minX="67" minY="73" width="240" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Screen Shot 2016-10-24 at 8.56.21 PM.png" translatesAutoresizingMaskIntoConstraints="NO" id="4cL-Pr-hM6">
                                 <frame key="frameInset" minX="147" minY="412" width="80" height="67"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="This app will guide you how to survive The Colegio thought the firsts day as a Prepa Lets get satarted!" textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7YY-cB-Ud1">
+                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="This app will guide you how to survive The Colegio thought the firsts day as a Prepa Lets get satarted!" textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7YY-cB-Ud1">
                                 <frame key="frameInset" minX="8" minY="234" width="777" height="126"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="9"/>
                                 <color key="textColor" red="0.21542337819743657" green="0.76820504665374756" blue="0.22081120796647144" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
@@ -42,7 +44,6 @@
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="7YY-cB-Ud1" firstAttribute="top" secondItem="mG6-nq-3He" secondAttribute="bottom" constant="33" id="4lP-kj-yht"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="55c-sw-hec" secondAttribute="bottom" id="ETa-h2-lIS"/>
                             <constraint firstItem="55c-sw-hec" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="NPH-cQ-aF6"/>
                             <constraint firstItem="55c-sw-hec" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="uKm-ab-hC1"/>
@@ -167,7 +168,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="Twv-mx-vjS">
-                                <frame key="frameInset" minX="67" minY="269" width="240" height="128"/>
+                                <frame key="frameInset" minY="28" width="375" height="639"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </mapView>
                         </subviews>
@@ -176,7 +177,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Msz-vq-tam" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1414" y="-617"/>
+            <point key="canvasLocation" x="1413.5999999999999" y="-617.54122938530736"/>
         </scene>
     </scenes>
     <resources>

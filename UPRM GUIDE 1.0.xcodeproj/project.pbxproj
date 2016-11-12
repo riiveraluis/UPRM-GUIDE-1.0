@@ -18,6 +18,7 @@
 		883E12B11DD76617000B3390 /* MapIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 883E12AB1DD76617000B3390 /* MapIcon.png */; };
 		883E12B21DD76617000B3390 /* Screen Shot 2016-10-24 at 8.56.06 PM.png in Resources */ = {isa = PBXBuildFile; fileRef = 883E12AC1DD76617000B3390 /* Screen Shot 2016-10-24 at 8.56.06 PM.png */; };
 		883E12B31DD76617000B3390 /* Screen Shot 2016-10-24 at 8.56.21 PM.png in Resources */ = {isa = PBXBuildFile; fileRef = 883E12AD1DD76617000B3390 /* Screen Shot 2016-10-24 at 8.56.21 PM.png */; };
+		883E12B71DD76D9A000B3390 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 883E12B61DD76D9A000B3390 /* MapKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +35,7 @@
 		883E12AB1DD76617000B3390 /* MapIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MapIcon.png; sourceTree = "<group>"; };
 		883E12AC1DD76617000B3390 /* Screen Shot 2016-10-24 at 8.56.06 PM.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Screen Shot 2016-10-24 at 8.56.06 PM.png"; sourceTree = "<group>"; };
 		883E12AD1DD76617000B3390 /* Screen Shot 2016-10-24 at 8.56.21 PM.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Screen Shot 2016-10-24 at 8.56.21 PM.png"; sourceTree = "<group>"; };
+		883E12B61DD76D9A000B3390 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,6 +43,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				883E12B71DD76D9A000B3390 /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -52,6 +55,7 @@
 			children = (
 				883E12951DD76055000B3390 /* UPRM GUIDE 1.0 */,
 				883E12941DD76055000B3390 /* Products */,
+				883E12B51DD76D9A000B3390 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -88,6 +92,14 @@
 				883E12AD1DD76617000B3390 /* Screen Shot 2016-10-24 at 8.56.21 PM.png */,
 			);
 			name = Images;
+			sourceTree = "<group>";
+		};
+		883E12B51DD76D9A000B3390 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				883E12B61DD76D9A000B3390 /* MapKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -332,6 +344,7 @@
 				883E12A71DD76055000B3390 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
