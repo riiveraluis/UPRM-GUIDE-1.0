@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "883E12921DD76055000B3390"
-               BuildableName = "UPRM GUIDE 1.0.app"
-               BlueprintName = "UPRM GUIDE 1.0"
-               ReferencedContainer = "container:UPRM GUIDE 1.0.xcodeproj">
+               BuildableName = "UPRM GUIDE.app"
+               BlueprintName = "UPRM GUIDE"
+               ReferencedContainer = "container:UPRM GUIDE.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "883E12921DD76055000B3390"
-            BuildableName = "UPRM GUIDE 1.0.app"
-            BlueprintName = "UPRM GUIDE 1.0"
-            ReferencedContainer = "container:UPRM GUIDE 1.0.xcodeproj">
+            BuildableName = "UPRM GUIDE.app"
+            BlueprintName = "UPRM GUIDE"
+            ReferencedContainer = "container:UPRM GUIDE.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -56,9 +56,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "883E12921DD76055000B3390"
-            BuildableName = "UPRM GUIDE 1.0.app"
-            BlueprintName = "UPRM GUIDE 1.0"
-            ReferencedContainer = "container:UPRM GUIDE 1.0.xcodeproj">
+            BuildableName = "UPRM GUIDE.app"
+            BlueprintName = "UPRM GUIDE"
+            ReferencedContainer = "container:UPRM GUIDE.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -75,9 +75,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "883E12921DD76055000B3390"
-            BuildableName = "UPRM GUIDE 1.0.app"
-            BlueprintName = "UPRM GUIDE 1.0"
-            ReferencedContainer = "container:UPRM GUIDE 1.0.xcodeproj">
+            BuildableName = "UPRM GUIDE.app"
+            BlueprintName = "UPRM GUIDE"
+            ReferencedContainer = "container:UPRM GUIDE.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

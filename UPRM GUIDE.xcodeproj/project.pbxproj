@@ -22,7 +22,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		883E12931DD76055000B3390 /* UPRM GUIDE 1.0.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "UPRM GUIDE 1.0.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		883E12931DD76055000B3390 /* UPRM GUIDE.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "UPRM GUIDE.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		883E12961DD76055000B3390 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		883E12981DD76055000B3390 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		883E129B1DD76055000B3390 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -62,7 +62,7 @@
 		883E12941DD76055000B3390 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				883E12931DD76055000B3390 /* UPRM GUIDE 1.0.app */,
+				883E12931DD76055000B3390 /* UPRM GUIDE.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -105,9 +105,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		883E12921DD76055000B3390 /* UPRM GUIDE 1.0 */ = {
+		883E12921DD76055000B3390 /* UPRM GUIDE */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 883E12A51DD76055000B3390 /* Build configuration list for PBXNativeTarget "UPRM GUIDE 1.0" */;
+			buildConfigurationList = 883E12A51DD76055000B3390 /* Build configuration list for PBXNativeTarget "UPRM GUIDE" */;
 			buildPhases = (
 				883E128F1DD76055000B3390 /* Sources */,
 				883E12901DD76055000B3390 /* Frameworks */,
@@ -117,9 +117,9 @@
 			);
 			dependencies = (
 			);
-			name = "UPRM GUIDE 1.0";
+			name = "UPRM GUIDE";
 			productName = "UPRM GUIDE 1.0";
-			productReference = 883E12931DD76055000B3390 /* UPRM GUIDE 1.0.app */;
+			productReference = 883E12931DD76055000B3390 /* UPRM GUIDE.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -139,7 +139,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 883E128E1DD76055000B3390 /* Build configuration list for PBXProject "UPRM GUIDE 1.0" */;
+			buildConfigurationList = 883E128E1DD76055000B3390 /* Build configuration list for PBXProject "UPRM GUIDE" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -152,7 +152,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				883E12921DD76055000B3390 /* UPRM GUIDE 1.0 */,
+				883E12921DD76055000B3390 /* UPRM GUIDE */,
 			);
 		};
 /* End PBXProject section */
@@ -328,7 +328,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		883E128E1DD76055000B3390 /* Build configuration list for PBXProject "UPRM GUIDE 1.0" */ = {
+		883E128E1DD76055000B3390 /* Build configuration list for PBXProject "UPRM GUIDE" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				883E12A31DD76055000B3390 /* Debug */,
@@ -337,7 +337,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		883E12A51DD76055000B3390 /* Build configuration list for PBXNativeTarget "UPRM GUIDE 1.0" */ = {
+		883E12A51DD76055000B3390 /* Build configuration list for PBXNativeTarget "UPRM GUIDE" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				883E12A61DD76055000B3390 /* Debug */,
