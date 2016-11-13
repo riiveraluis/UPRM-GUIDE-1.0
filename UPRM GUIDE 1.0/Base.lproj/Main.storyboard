@@ -92,7 +92,7 @@
                                 <rect key="frame" x="120" y="155" width="134" height="101"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <connections>
-                                    <segue destination="fT5-y3-OB9" kind="show" id="Yh4-Kl-dH4"/>
+                                    <segue destination="qQc-0d-HU4" kind="show" id="Yh4-Kl-dH4"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ETt-9h-ehN">
@@ -124,7 +124,7 @@
             </objects>
             <point key="canvasLocation" x="544.79999999999995" y="35.532233883058474"/>
         </scene>
-        <!--View Controller-->
+        <!--UPRM Map-->
         <scene sceneID="Tha-j7-1ef">
             <objects>
                 <viewController id="fT5-y3-OB9" sceneMemberID="viewController">
@@ -136,25 +136,30 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" mapType="hybrid" showsUserLocation="YES" showsScale="YES" showsTraffic="YES" translatesAutoresizingMaskIntoConstraints="NO" id="IjW-BN-en5">
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="cUu-Z6-ifT">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </mapView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3uU-JC-9Zl">
-                                <rect key="frame" x="9" y="20" width="60" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="&lt; Return"/>
-                                <connections>
-                                    <segue destination="mez-Lb-frL" kind="show" id="tpH-lC-3J7"/>
-                                </connections>
-                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
+                    <navigationItem key="navigationItem" title="UPRM Map" id="RbQ-eJ-nl4">
+                        <barButtonItem key="backBarButtonItem" title="Back" id="SjR-9L-Ifv"/>
+                        <barButtonItem key="leftBarButtonItem" style="plain" id="rhR-yB-VZH">
+                            <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="rK6-2y-PTU">
+                                <rect key="frame" x="16" y="7" width="83" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="&lt; Back"/>
+                            </button>
+                            <connections>
+                                <segue destination="mez-Lb-frL" kind="show" id="hUY-bT-5U6"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="zLH-fR-c6v" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1413.5999999999999" y="-618.44077961019491"/>
+            <point key="canvasLocation" x="2354" y="-635"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="rRS-Lz-TBz">
@@ -212,6 +217,28 @@
             </objects>
             <point key="canvasLocation" x="1414" y="690"/>
         </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="QOV-cf-MXX">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="qQc-0d-HU4" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="oMS-0t-gAV">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <toolbar key="toolbar" opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="mMF-AN-T1j">
+                        <rect key="frame" x="0.0" y="623" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </toolbar>
+                    <connections>
+                        <segue destination="fT5-y3-OB9" kind="relationship" relationship="rootViewController" id="qaA-II-02l"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dt0-tE-amO" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1413.5999999999999" y="-618.44077961019491"/>
+        </scene>
     </scenes>
     <resources>
         <image name="147873854787225.jpeg" width="800" height="1067"/>
@@ -222,6 +249,6 @@
         <image name="Screen Shot 2016-10-24 at 8.56.21 PM.png" width="491" height="441"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="tpH-lC-3J7"/>
+        <segue reference="hUY-bT-5U6"/>
     </inferredMetricsTieBreakers>
 </document>
