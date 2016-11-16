@@ -20,6 +20,7 @@
 		883E12B21DD76617000B3390 /* Screen Shot 2016-10-24 at 8.56.06 PM.png in Resources */ = {isa = PBXBuildFile; fileRef = 883E12AC1DD76617000B3390 /* Screen Shot 2016-10-24 at 8.56.06 PM.png */; };
 		883E12B31DD76617000B3390 /* Screen Shot 2016-10-24 at 8.56.21 PM.png in Resources */ = {isa = PBXBuildFile; fileRef = 883E12AD1DD76617000B3390 /* Screen Shot 2016-10-24 at 8.56.21 PM.png */; };
 		883E12B71DD76D9A000B3390 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 883E12B61DD76D9A000B3390 /* MapKit.framework */; };
+		886B7DF71DDD1EDA00EF8A0A /* 2000px-UPR_Logo.svg.png in Resources */ = {isa = PBXBuildFile; fileRef = 886B7DF61DDD1EDA00EF8A0A /* 2000px-UPR_Logo.svg.png */; };
 		88907E501DD8B9A700335FB0 /* Group.png in Resources */ = {isa = PBXBuildFile; fileRef = 88907E4F1DD8B9A700335FB0 /* Group.png */; };
 		88907E521DD8BB3200335FB0 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88907E511DD8BB3200335FB0 /* CoreLocation.framework */; };
 /* End PBXBuildFile section */
@@ -40,6 +41,7 @@
 		883E12AC1DD76617000B3390 /* Screen Shot 2016-10-24 at 8.56.06 PM.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Screen Shot 2016-10-24 at 8.56.06 PM.png"; sourceTree = "<group>"; };
 		883E12AD1DD76617000B3390 /* Screen Shot 2016-10-24 at 8.56.21 PM.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Screen Shot 2016-10-24 at 8.56.21 PM.png"; sourceTree = "<group>"; };
 		883E12B61DD76D9A000B3390 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		886B7DF61DDD1EDA00EF8A0A /* 2000px-UPR_Logo.svg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "2000px-UPR_Logo.svg.png"; sourceTree = "<group>"; };
 		88907E4F1DD8B9A700335FB0 /* Group.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Group.png; sourceTree = "<group>"; };
 		88907E511DD8BB3200335FB0 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
@@ -94,6 +96,7 @@
 				883E12A81DD76617000B3390 /* 147873854787225.jpeg */,
 				88085BF01DDCCDD100161813 /* Screen Shot 2016-10-23 at 9.01.13 PM.png */,
 				88907E4F1DD8B9A700335FB0 /* Group.png */,
+				886B7DF61DDD1EDA00EF8A0A /* 2000px-UPR_Logo.svg.png */,
 				883E12A91DD76617000B3390 /* FAQ-Icon.png */,
 				883E12AA1DD76617000B3390 /* INFO-Icon.png */,
 				883E12AB1DD76617000B3390 /* MapIcon.png */,
@@ -178,6 +181,7 @@
 				883E12B31DD76617000B3390 /* Screen Shot 2016-10-24 at 8.56.21 PM.png in Resources */,
 				883E12B21DD76617000B3390 /* Screen Shot 2016-10-24 at 8.56.06 PM.png in Resources */,
 				883E12AF1DD76617000B3390 /* FAQ-Icon.png in Resources */,
+				886B7DF71DDD1EDA00EF8A0A /* 2000px-UPR_Logo.svg.png in Resources */,
 				88907E501DD8B9A700335FB0 /* Group.png in Resources */,
 				883E12AE1DD76617000B3390 /* 147873854787225.jpeg in Resources */,
 				883E12B01DD76617000B3390 /* INFO-Icon.png in Resources */,
