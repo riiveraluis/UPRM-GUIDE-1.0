@@ -24,13 +24,18 @@
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="147873854787225.jpeg" translatesAutoresizingMaskIntoConstraints="NO" id="55c-sw-hec">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                             </imageView>
-                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="This app will guide you how to survive The Colegio thought the firsts day as a Prepa Lets get satarted!" textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7YY-cB-Ud1">
-                                <rect key="frame" x="8" y="234" width="777" height="126"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="WelcomePrepasBlack.png" translatesAutoresizingMaskIntoConstraints="NO" id="PCf-IE-ARa">
+                                <rect key="frame" x="67" y="60" width="240" height="128"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="9"/>
-                                <color key="textColor" red="0.21542337819743657" green="0.76820504665374756" blue="0.22081120796647144" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UOd-ha-kGI">
+                                <rect key="frame" x="126" y="369" width="123" height="67"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="Intro-Arrow-White.png"/>
+                                <connections>
+                                    <segue destination="mez-Lb-frL" kind="show" id="aH0-Lg-ZxN"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
@@ -42,6 +47,11 @@
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <swipeGestureRecognizer cancelsTouchesInView="NO" direction="left" id="WgA-eJ-OvW">
+                    <connections>
+                        <segue destination="mez-Lb-frL" kind="show" id="HU2-6d-VSP"/>
+                    </connections>
+                </swipeGestureRecognizer>
             </objects>
             <point key="canvasLocation" x="-298.39999999999998" y="36.431784107946029"/>
         </scene>
@@ -61,19 +71,17 @@
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1IY-Bo-oTz">
-                                <rect key="frame" x="120" y="155" width="134" height="101"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1IY-Bo-oTz">
+                                <rect key="frame" x="115" y="76" width="145" height="154"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="MapIcon.png"/>
                                 <connections>
-                                    <segue destination="qQc-0d-HU4" kind="show" id="Yh4-Kl-dH4"/>
+                                    <segue destination="p6R-nM-4dK" kind="show" id="UyN-1a-vak"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ETt-9h-ehN">
                                 <rect key="frame" x="120" y="304" width="134" height="101"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <connections>
-                                    <segue destination="hax-3x-XEl" kind="show" id="8tA-pd-MCv"/>
-                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gzB-1H-e1F">
                                 <rect key="frame" x="120" y="463" width="134" height="101"/>
@@ -81,6 +89,19 @@
                                 <connections>
                                     <segue destination="A7h-El-k6d" kind="show" id="Ftq-D4-hZA"/>
                                 </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ux4-fo-1gd">
+                                <rect key="frame" x="89" y="261" width="198" height="144"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="FAQ-Icon.png"/>
+                                <connections>
+                                    <segue destination="hax-3x-XEl" kind="show" id="EFA-WM-uDe"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1ql-9J-9qU">
+                                <rect key="frame" x="89" y="456" width="198" height="144"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="INFO-Icon.png"/>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="UPRM GUIDE" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cYd-Jj-nkE">
                                 <rect key="frame" x="87" y="28" width="200" height="40"/>
@@ -97,42 +118,23 @@
             </objects>
             <point key="canvasLocation" x="544.79999999999995" y="35.532233883058474"/>
         </scene>
-        <!--UPRM Map-->
-        <scene sceneID="Tha-j7-1ef">
+        <!--View Controller-->
+        <scene sceneID="haK-kO-7ZJ">
             <objects>
-                <viewController id="fT5-y3-OB9" sceneMemberID="viewController">
+                <viewController id="p6R-nM-4dK" sceneMemberID="viewController">
                     <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="jo0-w0-kcd"/>
-                        <viewControllerLayoutGuide type="bottom" id="vkS-vO-haY"/>
+                        <viewControllerLayoutGuide type="top" id="idv-nc-CFD"/>
+                        <viewControllerLayoutGuide type="bottom" id="PjP-8U-cO7"/>
                     </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="BPI-PM-had">
+                    <view key="view" contentMode="scaleToFill" id="P4D-4o-MfI">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="cUu-Z6-ifT">
-                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </mapView>
-                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <navigationItem key="navigationItem" title="UPRM Map" id="RbQ-eJ-nl4">
-                        <barButtonItem key="backBarButtonItem" title="Back" id="SjR-9L-Ifv"/>
-                        <barButtonItem key="leftBarButtonItem" style="plain" id="rhR-yB-VZH">
-                            <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="rK6-2y-PTU">
-                                <rect key="frame" x="16" y="7" width="83" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="&lt; Back"/>
-                            </button>
-                            <connections>
-                                <segue destination="mez-Lb-frL" kind="show" id="hUY-bT-5U6"/>
-                            </connections>
-                        </barButtonItem>
-                    </navigationItem>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="zLH-fR-c6v" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="y7N-iT-ZFh" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2354" y="-635"/>
+            <point key="canvasLocation" x="1513" y="-653"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="rRS-Lz-TBz">
@@ -160,7 +162,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="KNl-gL-EAK" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1414" y="36"/>
+            <point key="canvasLocation" x="1513" y="36"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="KkU-u9-xsQ">
@@ -188,33 +190,16 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="LoS-J2-UWW" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1414" y="690"/>
-        </scene>
-        <!--Navigation Controller-->
-        <scene sceneID="QOV-cf-MXX">
-            <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="qQc-0d-HU4" sceneMemberID="viewController">
-                    <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="oMS-0t-gAV">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
-                        <autoresizingMask key="autoresizingMask"/>
-                    </navigationBar>
-                    <nil name="viewControllers"/>
-                    <toolbar key="toolbar" opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="mMF-AN-T1j">
-                        <rect key="frame" x="0.0" y="623" width="375" height="44"/>
-                        <autoresizingMask key="autoresizingMask"/>
-                    </toolbar>
-                    <connections>
-                        <segue destination="fT5-y3-OB9" kind="relationship" relationship="rootViewController" id="qaA-II-02l"/>
-                    </connections>
-                </navigationController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="dt0-tE-amO" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="1413.5999999999999" y="-618.44077961019491"/>
+            <point key="canvasLocation" x="1513" y="800"/>
         </scene>
     </scenes>
     <resources>
         <image name="147873854787225.jpeg" width="800" height="1067"/>
+        <image name="FAQ-Icon.png" width="144" height="144"/>
+        <image name="INFO-Icon.png" width="144" height="144"/>
+        <image name="Intro-Arrow-White.png" width="69" height="67"/>
+        <image name="MapIcon.png" width="144" height="144"/>
+        <image name="WelcomePrepasBlack.png" width="253" height="136"/>
     </resources>
     <inferredMetricsTieBreakers>
         <segue reference="4Lc-cH-TQr"/>
