@@ -47,11 +47,6 @@
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
-                <swipeGestureRecognizer cancelsTouchesInView="NO" direction="left" id="WgA-eJ-OvW">
-                    <connections>
-                        <segue destination="mez-Lb-frL" kind="show" id="HU2-6d-VSP"/>
-                    </connections>
-                </swipeGestureRecognizer>
             </objects>
             <point key="canvasLocation" x="-298.39999999999998" y="36.431784107946029"/>
         </scene>
@@ -72,9 +67,9 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1IY-Bo-oTz">
-                                <rect key="frame" x="115" y="76" width="145" height="154"/>
+                                <rect key="frame" x="115" y="76" width="145" height="128"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" image="MapIcon.png"/>
+                                <state key="normal" image="Map icon GM.png"/>
                                 <connections>
                                     <segue destination="p6R-nM-4dK" kind="show" id="UyN-1a-vak"/>
                                 </connections>
@@ -82,13 +77,6 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ETt-9h-ehN">
                                 <rect key="frame" x="120" y="304" width="134" height="101"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gzB-1H-e1F">
-                                <rect key="frame" x="120" y="463" width="134" height="101"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <connections>
-                                    <segue destination="A7h-El-k6d" kind="show" id="Ftq-D4-hZA"/>
-                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ux4-fo-1gd">
                                 <rect key="frame" x="89" y="261" width="198" height="144"/>
@@ -98,11 +86,6 @@
                                     <segue destination="hax-3x-XEl" kind="show" id="EFA-WM-uDe"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1ql-9J-9qU">
-                                <rect key="frame" x="89" y="456" width="198" height="144"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" image="INFO-Icon.png"/>
-                            </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="UPRM GUIDE" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cYd-Jj-nkE">
                                 <rect key="frame" x="87" y="28" width="200" height="40"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -110,6 +93,14 @@
                                 <color key="textColor" red="0.45054775476455688" green="0.76820504665374756" blue="0.38790327310562134" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cSb-Ir-pOW">
+                                <rect key="frame" x="88" y="450" width="198" height="144"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="INFO-Icon.png"/>
+                                <connections>
+                                    <segue destination="Wli-TL-hK1" kind="show" id="p2a-tz-lN0"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
@@ -165,32 +156,32 @@
             <point key="canvasLocation" x="1513" y="36"/>
         </scene>
         <!--View Controller-->
-        <scene sceneID="KkU-u9-xsQ">
+        <scene sceneID="8Kp-3u-dwH">
             <objects>
-                <viewController id="A7h-El-k6d" sceneMemberID="viewController">
+                <viewController id="Wli-TL-hK1" sceneMemberID="viewController">
                     <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="F1t-cL-gnT"/>
-                        <viewControllerLayoutGuide type="bottom" id="CVO-02-M9D"/>
+                        <viewControllerLayoutGuide type="top" id="hXW-qS-jQn"/>
+                        <viewControllerLayoutGuide type="bottom" id="rEH-N7-4AU"/>
                     </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="L31-MR-OWR">
+                    <view key="view" contentMode="scaleToFill" id="wzP-hr-fgg">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aIP-F3-FXG">
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mf3-vv-WKi">
                                 <rect key="frame" x="16" y="28" width="60" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="&lt; Return"/>
                                 <connections>
-                                    <segue destination="mez-Lb-frL" kind="show" id="4Lc-cH-TQr"/>
+                                    <segue destination="mez-Lb-frL" kind="show" id="d2z-aG-O1k"/>
                                 </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="LoS-J2-UWW" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="akB-V8-2xd" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1513" y="800"/>
+            <point key="canvasLocation" x="1492" y="720"/>
         </scene>
     </scenes>
     <resources>
@@ -198,10 +189,10 @@
         <image name="FAQ-Icon.png" width="144" height="144"/>
         <image name="INFO-Icon.png" width="144" height="144"/>
         <image name="Intro-Arrow-White.png" width="69" height="67"/>
-        <image name="MapIcon.png" width="144" height="144"/>
+        <image name="Map icon GM.png" width="1536" height="1536"/>
         <image name="WelcomePrepasBlack.png" width="253" height="136"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="4Lc-cH-TQr"/>
+        <segue reference="d2z-aG-O1k"/>
     </inferredMetricsTieBreakers>
 </document>
