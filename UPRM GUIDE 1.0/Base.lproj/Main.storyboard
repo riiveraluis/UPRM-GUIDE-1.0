@@ -185,6 +185,10 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="147873854787225.jpeg" translatesAutoresizingMaskIntoConstraints="NO" id="ybZ-dw-9Ec">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mf3-vv-WKi">
                                 <rect key="frame" x="16" y="28" width="60" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -193,10 +197,6 @@
                                     <segue destination="mez-Lb-frL" kind="show" id="d2z-aG-O1k"/>
                                 </connections>
                             </button>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="147873854787225.jpeg" translatesAutoresizingMaskIntoConstraints="NO" id="ybZ-dw-9Ec">
-                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
@@ -215,6 +215,6 @@
         <image name="WelcomePrepasBlack.png" width="253" height="136"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="d4E-zS-P2B"/>
+        <segue reference="d2z-aG-O1k"/>
     </inferredMetricsTieBreakers>
 </document>
