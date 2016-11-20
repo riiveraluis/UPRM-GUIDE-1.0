@@ -19,21 +19,21 @@ class ViewController: UIViewController, MKMapViewDelegate {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         
-        // Set Initial location to Mayaguez, Puerto Rico, UPRM
+        // Set Initial location to Mayaguez, Puerto Rico, UPRM 18.211335, -67.139150
         
-        let latitude: CLLocationDegrees = 40.7
+        var latitude: CLLocationDegrees = 18.21
         
-        let longitude: CLLocationDegrees = -73.9
+        var longitude: CLLocationDegrees = -67.13
+
+        var latitudeDelta: CLLocationDistance = 0.05
         
-        let latDelta: CLLocationDistance = 0.05
+        var longitudeDelta: CLLocationDegrees = 0.05
         
-        let lonDElta: CLLocationDegrees = 0.05
+        var span: MKCoordinateSpan = MKCoordinateSpan(latitudeDelta: CLLocationDegrees, longitudeDelta: CLLocationDegrees)
         
-        let span: MKCoordinateSpan = MKCoordinateSpan(latitudeDelta: CLLocationDegrees, longitudeDelta: <#T##CLLocationDegrees#>)
+        var location: CLLocationCoordinate2D = CLLocationCoordinate2D(latitude: CLLocationDegrees, longitude: CLLocationDegrees)
         
-        let location: CLLocationCoordinate2D = CLLocationCoordinate2D(latitude: CLLocationDegrees, longitude: CLLocationDegrees)
-        
-        let region: MKCoordinateRegion = MKCoordinateRegion(center: CLLocationCoordinate2D, span: )
+        var region: MKCoordinateRegion = MKCoordinateRegion(center: CLLocationCoordinate2D, span: span )
         
         mapView.setRegion(region,animated:true)
     }
