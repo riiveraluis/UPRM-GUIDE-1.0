@@ -3,17 +3,18 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 46;
+	objectVersion = 48;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		883792F01DE170FA00C8E278 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 883E12B61DD76D9A000B3390 /* MapKit.framework */; settings = {ATTRIBUTES = (Required, ); }; };
 		883E12971DD76055000B3390 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 883E12961DD76055000B3390 /* AppDelegate.swift */; };
 		883E12991DD76055000B3390 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 883E12981DD76055000B3390 /* ViewController.swift */; };
 		883E129C1DD76055000B3390 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 883E129A1DD76055000B3390 /* Main.storyboard */; };
 		883E129E1DD76055000B3390 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 883E129D1DD76055000B3390 /* Assets.xcassets */; };
 		883E12A11DD76055000B3390 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 883E129F1DD76055000B3390 /* LaunchScreen.storyboard */; };
 		883E12AE1DD76617000B3390 /* 147873854787225.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 883E12A81DD76617000B3390 /* 147873854787225.jpeg */; };
-		883E12B71DD76D9A000B3390 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 883E12B61DD76D9A000B3390 /* MapKit.framework */; };
+		88633C851DE175160067738B /* MapKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 883E12B61DD76D9A000B3390 /* MapKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		886B7DFF1DDD1FD300EF8A0A /* UPRM Map .png in Resources */ = {isa = PBXBuildFile; fileRef = 886B7DF91DDD1FD300EF8A0A /* UPRM Map .png */; };
 		886B7E001DDD1FD300EF8A0A /* Plus-Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 886B7DFA1DDD1FD300EF8A0A /* Plus-Icon.png */; };
 		886B7E011DDD1FD300EF8A0A /* Intro-Arrow-White.png in Resources */ = {isa = PBXBuildFile; fileRef = 886B7DFB1DDD1FD300EF8A0A /* Intro-Arrow-White.png */; };
@@ -22,8 +23,21 @@
 		886B7E071DDD238E00EF8A0A /* WelcomePrepasBlack.png in Resources */ = {isa = PBXBuildFile; fileRef = 886B7E061DDD238E00EF8A0A /* WelcomePrepasBlack.png */; };
 		886B7E091DDD2ABA00EF8A0A /* Map icon GM.png in Resources */ = {isa = PBXBuildFile; fileRef = 886B7E081DDD2ABA00EF8A0A /* Map icon GM.png */; };
 		88907E501DD8B9A700335FB0 /* Group.png in Resources */ = {isa = PBXBuildFile; fileRef = 88907E4F1DD8B9A700335FB0 /* Group.png */; };
-		88907E521DD8BB3200335FB0 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88907E511DD8BB3200335FB0 /* CoreLocation.framework */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		88633C861DE175160067738B /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				88633C851DE175160067738B /* MapKit.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		883E12931DD76055000B3390 /* UPRM GUIDE.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "UPRM GUIDE.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -51,8 +65,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				883E12B71DD76D9A000B3390 /* MapKit.framework in Frameworks */,
-				88907E521DD8BB3200335FB0 /* CoreLocation.framework in Frameworks */,
+				883792F01DE170FA00C8E278 /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -67,6 +80,7 @@
 				883E12B51DD76D9A000B3390 /* Frameworks */,
 			);
 			sourceTree = "<group>";
+			usesTabs = 0;
 		};
 		883E12941DD76055000B3390 /* Products */ = {
 			isa = PBXGroup;
@@ -125,6 +139,7 @@
 				883E128F1DD76055000B3390 /* Sources */,
 				883E12901DD76055000B3390 /* Frameworks */,
 				883E12911DD76055000B3390 /* Resources */,
+				88633C861DE175160067738B /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -153,7 +168,7 @@
 				};
 			};
 			buildConfigurationList = 883E128E1DD76055000B3390 /* Build configuration list for PBXProject "UPRM GUIDE" */;
-			compatibilityVersion = "Xcode 3.2";
+			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (

@@ -102,7 +102,7 @@
         <!--Map-->
         <scene sceneID="haK-kO-7ZJ">
             <objects>
-                <viewController title="Map" id="p6R-nM-4dK" sceneMemberID="viewController">
+                <viewController title="Map" id="p6R-nM-4dK" customClass="ViewController" customModule="UPRM_GUIDE" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="idv-nc-CFD"/>
                         <viewControllerLayoutGuide type="bottom" id="PjP-8U-cO7"/>
@@ -111,13 +111,16 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" mapType="hybrid" showsUserLocation="YES" showsScale="YES" showsTraffic="YES" translatesAutoresizingMaskIntoConstraints="NO" id="TOW-6Z-S0b">
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" mapType="standard" showsUserLocation="YES" showsScale="YES" showsTraffic="YES" translatesAutoresizingMaskIntoConstraints="NO" id="TOW-6Z-S0b">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </mapView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
+                    <connections>
+                        <outlet property="mapView" destination="TOW-6Z-S0b" id="XP4-xG-LhZ"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="y7N-iT-ZFh" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -176,7 +179,7 @@
             <objects>
                 <navigationController title="Bar" automaticallyAdjustsScrollViewInsets="NO" modalTransitionStyle="partialCurl" id="qh8-5b-w6v" sceneMemberID="viewController">
                     <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" misplaced="YES" barStyle="black" id="Dtj-E6-mSD">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" barStyle="black" id="Dtj-E6-mSD">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <textAttributes key="titleTextAttributes">
