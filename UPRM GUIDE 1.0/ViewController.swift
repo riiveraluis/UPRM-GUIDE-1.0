@@ -8,24 +8,34 @@
 
 import UIKit
 import MapKit
+import CoreLocation
 
-class ViewController: UIViewController {
+class ViewController: UIViewController, MKMapViewDelegate {
 
     @IBOutlet weak var mapView: MKMapView!
     
-    // Set Initial location to Mayaguez, Puerto Rico, UPRM
-   
-    let initialLocation = CLLocation(latitude: 21.282778, longitude: -157.829444)
-    
-    let regionRadius: CLLocationDistance = 1000
-    func centerMapOnLocation(location: CLLocation) {
-    let coordinateRegion = MKCoordinateRegionMakeWithDistance(location.coordinate,regionRadius * 2.0, regionRadius * 2.0)
-        mapView.setRegion(coordinateRegion, animated: true)
-    }
     
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        
+        // Set Initial location to Mayaguez, Puerto Rico, UPRM
+        
+        let latitude: CLLocationDegrees = 40.7
+        
+        let longitude: CLLocationDegrees = -73.9
+        
+        let latDelta: CLLocationDistance = 0.05
+        
+        let lonDElta: CLLocationDegrees = 0.05
+        
+        let span: MKCoordinateSpan = MKCoordinateSpan(latitudeDelta: CLLocationDegrees, longitudeDelta: <#T##CLLocationDegrees#>)
+        
+        let location: CLLocationCoordinate2D = CLLocationCoordinate2D(latitude: CLLocationDegrees, longitude: CLLocationDegrees)
+        
+        let region: MKCoordinateRegion = MKCoordinateRegion(center: CLLocationCoordinate2D, span: )
+        
+        mapView.setRegion(region,animated:true)
     }
 
     override func didReceiveMemoryWarning() {
