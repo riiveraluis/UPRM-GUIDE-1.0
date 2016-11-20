@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11760" systemVersion="16C48b" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11761" systemVersion="16C48b" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11755"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -33,7 +33,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="Intro-Arrow-White.png"/>
                                 <connections>
-                                    <segue destination="mez-Lb-frL" kind="show" id="aH0-Lg-ZxN"/>
+                                    <segue destination="qh8-5b-w6v" kind="show" id="aH0-Lg-ZxN"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -66,53 +66,43 @@
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ETt-9h-ehN">
-                                <rect key="frame" x="120" y="304" width="134" height="101"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ux4-fo-1gd">
-                                <rect key="frame" x="89" y="261" width="198" height="144"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" image="FAQ-Icon.png"/>
-                                <connections>
-                                    <segue destination="hax-3x-XEl" kind="show" id="EFA-WM-uDe"/>
-                                </connections>
-                            </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="UPRM GUIDE" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cYd-Jj-nkE">
-                                <rect key="frame" x="87" y="28" width="200" height="40"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="32"/>
-                                <color key="textColor" red="0.45054775476455688" green="0.76820504665374756" blue="0.38790327310562134" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cSb-Ir-pOW">
-                                <rect key="frame" x="88" y="450" width="198" height="144"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" image="INFO-Icon.png"/>
-                                <connections>
-                                    <segue destination="Wli-TL-hK1" kind="show" id="p2a-tz-lN0"/>
-                                </connections>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1IY-Bo-oTz">
-                                <rect key="frame" x="115" y="96" width="145" height="128"/>
+                                <rect key="frame" x="115" y="86" width="145" height="128"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="Map icon GM.png"/>
                                 <connections>
                                     <segue destination="p6R-nM-4dK" kind="show" id="UyN-1a-vak"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Wh6-ZR-3HH">
+                                <rect key="frame" x="25" y="261" width="144" height="144"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="FAQ-Icon.png"/>
+                                <connections>
+                                    <segue destination="hax-3x-XEl" kind="show" id="zfR-Ar-LZd"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cSb-Ir-pOW">
+                                <rect key="frame" x="189" y="261" width="198" height="144"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="INFO-Icon.png"/>
+                                <connections>
+                                    <segue destination="Wli-TL-hK1" kind="show" id="p2a-tz-lN0"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
+                    <navigationItem key="navigationItem" title="UPRM GUIDE" id="PfI-h4-eWY"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="uHQ-KQ-q1U" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="544.79999999999995" y="35.532233883058474"/>
+            <point key="canvasLocation" x="1484" y="35.532233883058474"/>
         </scene>
-        <!--View Controller-->
+        <!--Map-->
         <scene sceneID="haK-kO-7ZJ">
             <objects>
-                <viewController id="p6R-nM-4dK" sceneMemberID="viewController">
+                <viewController title="Map" id="p6R-nM-4dK" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="idv-nc-CFD"/>
                         <viewControllerLayoutGuide type="bottom" id="PjP-8U-cO7"/>
@@ -121,30 +111,22 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="TOW-6Z-S0b">
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" mapType="hybrid" showsUserLocation="YES" showsScale="YES" showsTraffic="YES" translatesAutoresizingMaskIntoConstraints="NO" id="TOW-6Z-S0b">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </mapView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lNs-Wi-go8">
-                                <rect key="frame" x="16" y="20" width="60" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="&lt; Return"/>
-                                <connections>
-                                    <segue destination="mez-Lb-frL" kind="show" id="d4E-zS-P2B"/>
-                                </connections>
-                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="y7N-iT-ZFh" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1513" y="-652"/>
+            <point key="canvasLocation" x="1484" y="-653"/>
         </scene>
-        <!--View Controller-->
+        <!--FAQ-->
         <scene sceneID="rRS-Lz-TBz">
             <objects>
-                <viewController id="hax-3x-XEl" sceneMemberID="viewController">
+                <viewController title="FAQ" id="hax-3x-XEl" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="nVn-ZI-0Zl"/>
                         <viewControllerLayoutGuide type="bottom" id="uug-AD-961"/>
@@ -157,26 +139,18 @@
                                 <rect key="frame" x="0.0" y="0.0" width="390" height="667"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="khm-dy-skT">
-                                <rect key="frame" x="16" y="20" width="60" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="&lt; Return"/>
-                                <connections>
-                                    <segue destination="mez-Lb-frL" kind="show" id="U8Y-UP-w7r"/>
-                                </connections>
-                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="KNl-gL-EAK" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1512.8" y="35.532233883058474"/>
+            <point key="canvasLocation" x="2452" y="35.532233883058474"/>
         </scene>
-        <!--View Controller-->
+        <!--Tips-->
         <scene sceneID="8Kp-3u-dwH">
             <objects>
-                <viewController id="Wli-TL-hK1" sceneMemberID="viewController">
+                <viewController title="Tips" id="Wli-TL-hK1" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="hXW-qS-jQn"/>
                         <viewControllerLayoutGuide type="bottom" id="rEH-N7-4AU"/>
@@ -189,21 +163,38 @@
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mf3-vv-WKi">
-                                <rect key="frame" x="16" y="28" width="60" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="&lt; Return"/>
-                                <connections>
-                                    <segue destination="mez-Lb-frL" kind="show" id="d2z-aG-O1k"/>
-                                </connections>
-                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="akB-V8-2xd" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1513" y="718"/>
+            <point key="canvasLocation" x="1484" y="717"/>
+        </scene>
+        <!--Bar-->
+        <scene sceneID="dlz-zg-nGm">
+            <objects>
+                <navigationController title="Bar" automaticallyAdjustsScrollViewInsets="NO" modalTransitionStyle="partialCurl" id="qh8-5b-w6v" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" misplaced="YES" barStyle="black" id="Dtj-E6-mSD">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <textAttributes key="titleTextAttributes">
+                            <offsetWrapper key="textShadowOffset" horizontal="0.0" vertical="0.0"/>
+                        </textAttributes>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <toolbar key="toolbar" opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="ag0-H5-Jkl">
+                        <rect key="frame" x="0.0" y="623" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </toolbar>
+                    <connections>
+                        <segue destination="mez-Lb-frL" kind="relationship" relationship="rootViewController" id="sML-wq-grx"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="vDH-al-oJr" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="544.79999999999995" y="35.532233883058474"/>
         </scene>
     </scenes>
     <resources>
@@ -214,7 +205,4 @@
         <image name="Map icon GM.png" width="1536" height="1536"/>
         <image name="WelcomePrepasBlack.png" width="253" height="136"/>
     </resources>
-    <inferredMetricsTieBreakers>
-        <segue reference="d2z-aG-O1k"/>
-    </inferredMetricsTieBreakers>
 </document>
