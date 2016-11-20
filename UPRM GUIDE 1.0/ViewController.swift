@@ -4,10 +4,8 @@
 //
 //  Created by Luis Rivera Rivera on 11/12/16.
 //  Copyright © 2016 Luis Rivera Rivera. All rights reserved.
-//  Appcreators
-//  Jose Conde Comment 1: Hello World!
-// Cris: comment watebel
-// Culo kkjjkjkj
+//  Appcreatrs
+
 import UIKit
 import MapKit
 import CoreLocation
