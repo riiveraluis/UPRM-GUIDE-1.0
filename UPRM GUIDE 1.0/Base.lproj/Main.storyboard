@@ -119,7 +119,7 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <connections>
-                        <outlet property="mapView" destination="TOW-6Z-S0b" id="XP4-xG-LhZ"/>
+                        <outlet property="map" destination="TOW-6Z-S0b" id="pgW-pz-GM3"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="y7N-iT-ZFh" userLabel="First Responder" sceneMemberID="firstResponder"/>
