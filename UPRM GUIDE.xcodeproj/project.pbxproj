@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		8823DD3A1DE17D49007F94D7 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88907E511DD8BB3200335FB0 /* CoreLocation.framework */; };
+		882A5C4C1DE6A449000FC44D /* imageedit_4_4022555403.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 882A5C4B1DE6A449000FC44D /* imageedit_4_4022555403.jpg */; };
+		882A5C4E1DE6A44D000FC44D /* imageedit_1_3762873381.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 882A5C4D1DE6A44D000FC44D /* imageedit_1_3762873381.jpg */; };
 		883E12971DD76055000B3390 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 883E12961DD76055000B3390 /* AppDelegate.swift */; };
 		883E12991DD76055000B3390 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 883E12981DD76055000B3390 /* ViewController.swift */; };
 		883E129C1DD76055000B3390 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 883E129A1DD76055000B3390 /* Main.storyboard */; };
@@ -26,6 +28,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		882A5C4B1DE6A449000FC44D /* imageedit_4_4022555403.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = imageedit_4_4022555403.jpg; sourceTree = "<group>"; };
+		882A5C4D1DE6A44D000FC44D /* imageedit_1_3762873381.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = imageedit_1_3762873381.jpg; sourceTree = "<group>"; };
 		883E12931DD76055000B3390 /* UPRM GUIDE.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "UPRM GUIDE.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		883E12961DD76055000B3390 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		883E12981DD76055000B3390 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -98,9 +102,11 @@
 				886B7DF91DDD1FD300EF8A0A /* UPRM Map .png */,
 				886B7DFA1DDD1FD300EF8A0A /* Plus-Icon.png */,
 				886B7E081DDD2ABA00EF8A0A /* Map icon GM.png */,
+				882A5C4D1DE6A44D000FC44D /* imageedit_1_3762873381.jpg */,
 				886B7E061DDD238E00EF8A0A /* WelcomePrepasBlack.png */,
 				886B7DFB1DDD1FD300EF8A0A /* Intro-Arrow-White.png */,
 				886B7DFC1DDD1FD300EF8A0A /* INFO-Icon.png */,
+				882A5C4B1DE6A449000FC44D /* imageedit_4_4022555403.jpg */,
 				886B7DFD1DDD1FD300EF8A0A /* FAQ-Icon.png */,
 				88907E4F1DD8B9A700335FB0 /* Group.png */,
 			);
@@ -184,6 +190,8 @@
 				886B7E071DDD238E00EF8A0A /* WelcomePrepasBlack.png in Resources */,
 				883E129E1DD76055000B3390 /* Assets.xcassets in Resources */,
 				886B7E001DDD1FD300EF8A0A /* Plus-Icon.png in Resources */,
+				882A5C4C1DE6A449000FC44D /* imageedit_4_4022555403.jpg in Resources */,
+				882A5C4E1DE6A44D000FC44D /* imageedit_1_3762873381.jpg in Resources */,
 				88907E501DD8B9A700335FB0 /* Group.png in Resources */,
 				886B7E031DDD1FD300EF8A0A /* FAQ-Icon.png in Resources */,
 				886B7E021DDD1FD300EF8A0A /* INFO-Icon.png in Resources */,

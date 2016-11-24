@@ -62,9 +62,10 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="147873854787225.jpeg" translatesAutoresizingMaskIntoConstraints="NO" id="r2U-Ov-6N9">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="imageedit_4_4022555403.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="r2U-Ov-6N9">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <rect key="contentStretch" x="0.45000000000000001" y="0.0" width="1" height="1"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1IY-Bo-oTz">
                                 <rect key="frame" x="115" y="86" width="145" height="128"/>
@@ -162,7 +163,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="147873854787225.jpeg" translatesAutoresizingMaskIntoConstraints="NO" id="ybZ-dw-9Ec">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="imageedit_1_3762873381.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="ybZ-dw-9Ec">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
@@ -207,5 +208,7 @@
         <image name="Intro-Arrow-White.png" width="69" height="67"/>
         <image name="Map icon GM.png" width="1536" height="1536"/>
         <image name="WelcomePrepasBlack.png" width="253" height="136"/>
+        <image name="imageedit_1_3762873381.jpg" width="800" height="600"/>
+        <image name="imageedit_4_4022555403.jpg" width="1560" height="1040"/>
     </resources>
 </document>
