@@ -23,6 +23,7 @@
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="147873854787225.jpeg" translatesAutoresizingMaskIntoConstraints="NO" id="55c-sw-hec">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <gestureRecognizers/>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="WelcomePrepasBlack.png" translatesAutoresizingMaskIntoConstraints="NO" id="PCf-IE-ARa">
                                 <rect key="frame" x="67" y="60" width="240" height="128"/>
@@ -185,20 +186,22 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="P0E-dV-Vf8">
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="P0E-dV-Vf8">
                                 <rect key="frame" x="0.0" y="667" width="375" height="0.0"/>
                             </mapView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="8j1-vz-yPb" firstAttribute="top" secondItem="P0E-dV-Vf8" secondAttribute="bottom" id="1OS-EB-Mqx"/>
-                            <constraint firstAttribute="trailing" secondItem="P0E-dV-Vf8" secondAttribute="trailing" id="4Cb-EY-o4D"/>
-                            <constraint firstItem="P0E-dV-Vf8" firstAttribute="top" secondItem="OEC-h4-3nC" secondAttribute="top" id="9Bv-Fy-c22"/>
-                            <constraint firstItem="P0E-dV-Vf8" firstAttribute="leading" secondItem="OEC-h4-3nC" secondAttribute="leading" id="ej8-6j-mnf"/>
+                            <constraint firstAttribute="trailing" secondItem="P0E-dV-Vf8" secondAttribute="trailing" id="JGR-jA-sp8"/>
+                            <constraint firstItem="P0E-dV-Vf8" firstAttribute="top" secondItem="8j1-vz-yPb" secondAttribute="top" id="jml-EO-uKV"/>
+                            <constraint firstItem="P0E-dV-Vf8" firstAttribute="leading" secondItem="OEC-h4-3nC" secondAttribute="leading" id="lWm-HJ-ej6"/>
+                            <constraint firstItem="P0E-dV-Vf8" firstAttribute="bottom" secondItem="8j1-vz-yPb" secondAttribute="top" id="q4f-9R-ohC"/>
                         </constraints>
                     </view>
                     <connections>
-                        <outlet property="map" destination="P0E-dV-Vf8" id="4zW-HU-Tv3"/>
+                        <outlet property="map" destination="P0E-dV-Vf8" id="pKj-lL-Thn"/>
+                        <outletCollection property="map" destination="OEC-h4-3nC" id="fRX-jJ-08F"/>
+                        <outletCollection property="map" destination="P0E-dV-Vf8" id="lmm-Yg-Mmy"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4yP-FN-I7M" userLabel="First Responder" sceneMemberID="firstResponder"/>
